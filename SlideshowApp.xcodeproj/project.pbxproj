@@ -13,6 +13,11 @@
 		34E223E724935BE600160CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E223E524935BE600160CF2 /* Main.storyboard */; };
 		34E223E924935BEA00160CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E223E824935BEA00160CF2 /* Assets.xcassets */; };
 		34E223EC24935BEA00160CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E223EA24935BEA00160CF2 /* LaunchScreen.storyboard */; };
+		34E223F62493843B00160CF2 /* Jennie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34E223F32493843A00160CF2 /* Jennie.jpeg */; };
+		34E223F72493843B00160CF2 /* Jisso.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34E223F42493843A00160CF2 /* Jisso.jpeg */; };
+		34E223F82493843B00160CF2 /* Lisa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34E223F52493843A00160CF2 /* Lisa.jpeg */; };
+		34E223FA2493853E00160CF2 /* Rose.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34E223F92493853E00160CF2 /* Rose.jpeg */; };
+		34E223FC2493B35B00160CF2 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E223FB2493B35B00160CF2 /* ZoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		34E223E824935BEA00160CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34E223EB24935BEA00160CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34E223ED24935BEA00160CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E223F32493843A00160CF2 /* Jennie.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jennie.jpeg; sourceTree = "<group>"; };
+		34E223F42493843A00160CF2 /* Jisso.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jisso.jpeg; sourceTree = "<group>"; };
+		34E223F52493843A00160CF2 /* Lisa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lisa.jpeg; sourceTree = "<group>"; };
+		34E223F92493853E00160CF2 /* Rose.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rose.jpeg; sourceTree = "<group>"; };
+		34E223FB2493B35B00160CF2 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,15 @@
 				34E223DF24935BE600160CF2 /* AppDelegate.swift */,
 				34E223E124935BE600160CF2 /* SceneDelegate.swift */,
 				34E223E324935BE600160CF2 /* ViewController.swift */,
+				34E223FB2493B35B00160CF2 /* ZoomViewController.swift */,
 				34E223E524935BE600160CF2 /* Main.storyboard */,
 				34E223E824935BEA00160CF2 /* Assets.xcassets */,
 				34E223EA24935BEA00160CF2 /* LaunchScreen.storyboard */,
 				34E223ED24935BEA00160CF2 /* Info.plist */,
+				34E223F42493843A00160CF2 /* Jisso.jpeg */,
+				34E223F52493843A00160CF2 /* Lisa.jpeg */,
+				34E223F32493843A00160CF2 /* Jennie.jpeg */,
+				34E223F92493853E00160CF2 /* Rose.jpeg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -126,7 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				34E223EC24935BEA00160CF2 /* LaunchScreen.storyboard in Resources */,
+				34E223F72493843B00160CF2 /* Jisso.jpeg in Resources */,
 				34E223E924935BEA00160CF2 /* Assets.xcassets in Resources */,
+				34E223F82493843B00160CF2 /* Lisa.jpeg in Resources */,
+				34E223FA2493853E00160CF2 /* Rose.jpeg in Resources */,
+				34E223F62493843B00160CF2 /* Jennie.jpeg in Resources */,
 				34E223E724935BE600160CF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +160,7 @@
 				34E223E424935BE600160CF2 /* ViewController.swift in Sources */,
 				34E223E024935BE600160CF2 /* AppDelegate.swift in Sources */,
 				34E223E224935BE600160CF2 /* SceneDelegate.swift in Sources */,
+				34E223FC2493B35B00160CF2 /* ZoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
