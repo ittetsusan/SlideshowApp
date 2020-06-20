@@ -71,7 +71,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="backward" destination="Vz0-sx-27R" id="cdu-VL-Wi7"/>
+                        <outlet property="forward" destination="Gxy-fz-6Ou" id="q2Z-OQ-amf"/>
                         <outlet property="imageView" destination="YST-FF-0Bb" id="tix-Ne-69Q"/>
+                        <outlet property="playOrPause" destination="cft-eL-7dw" id="SQ9-rL-sWS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var forward: UIButton!
+    @IBOutlet weak var playOrPause: UIButton!
+    @IBOutlet weak var backward: UIButton!
     //タイマー
     var timer: Timer!
     
@@ -54,10 +57,20 @@ class ViewController: UIViewController {
     @IBAction func playOrPauseBotton(_ sender: Any) {
         if self.timer == nil {
             self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(handleTimer(_ :)), userInfo: nil, repeats: true)
+            
+            playOrPause.setTitle("停止", for: .normal)
+            
+            forward.isEnabled = false
+            backward.isEnabled = false
         }
         else {
             self.timer.invalidate()   // タイマーを停止する
             self.timer = nil
+            
+            playOrPause.setTitle("再生", for: .normal)
+            
+            forward.isEnabled = true
+            backward.isEnabled = true
         }
     }
     
@@ -88,6 +101,9 @@ class ViewController: UIViewController {
         if self.timer != nil{
             self.timer.invalidate()
             self.timer = nil
+            
+            forward.isEnabled = true
+            backward.isEnabled = true
         }
     }
     
